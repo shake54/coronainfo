@@ -1,0 +1,68 @@
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+  color:white;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  margin-right:30px;
+}
+
+.header-right a{
+  text-decoration: none;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+
+.main{
+  height:940px;
+  background:url("data/Tokyo.jpg")left top/auto 100% no-repeat;
+}
+
+.main-top{
+  height:500px;
+  background-color:black;
+  background-size:cover;
+}
+
+.main-imfo{
+  color:white;
+  text-align: center;
+  padding-top:60px;
+}
+
+.main-imfo h2{
+  font-size: 40px;
+}
+
+.japanlogo{
+  position:relative;
+  top:5px;
+}
+
+.news{
+  height:940px;
+  background:url("data/subway.jpg")left top/auto 100% no-repeat;
+}
